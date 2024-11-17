@@ -50,6 +50,12 @@ function U.set_cyrillic_keymaps(keymaps)
 	end
 end
 
+function U.set_keymaps(keymaps)
+	for _, keymap in ipairs(keymaps) do
+		set(keymap.mode, keymap.lhs, keymap.rhs)
+	end
+end
+
 local function delete(mode, lhs, buffer)
 	vim.keymap.del(mode, lhs, { buffer = buffer })
 end
