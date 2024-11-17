@@ -1,6 +1,6 @@
 # cyrillic-keymaps.nvim
 
-## Instalation
+## Installation
 
 ### [Lazy](https://github.com/folke/lazy.nvim)
 
