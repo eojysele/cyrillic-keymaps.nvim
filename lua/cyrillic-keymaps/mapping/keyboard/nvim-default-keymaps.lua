@@ -33,6 +33,8 @@ return {
 	{ mode = { "n", "v" }, lhs = "I" },
 	{ mode = "n", lhs = "a" },
 	{ mode = { "n", "v" }, lhs = "A" },
+	{ mode = { "n", "v" }, lhs = "o" },
+	{ mode = { "n", "v" }, lhs = "O" },
 
 	{ mode = { "n", "v" }, lhs = ":" },
 }
